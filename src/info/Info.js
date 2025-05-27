@@ -4,6 +4,10 @@ import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
 import mock4 from "../img/mock4.png";
 import mock5 from "../img/mock5.png";
+import mock6 from "../img/mock6.png";
+import mock7 from "../img/mock7.png";
+import mock8 from "../img/mock8.png";
+import mock9 from "../img/mock9.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -55,11 +59,6 @@ export const info = {
   ],
   socials: [
     {
-      link: "https://facebook.com",
-      icon: "fa fa-facebook",
-      label: "facebook",
-    },
-    {
       link: "https://instagram.com",
       icon: "fa fa-instagram",
       label: "instagram",
@@ -95,7 +94,6 @@ export const info = {
       "Done for",
       "No longer you",
       "Different beast",
-      "Scylla",
       "Thunder bringer",
       "Little wolf",
       "Love in paradise",
@@ -132,34 +130,67 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Project 1",
+      title: "Trojan saga",
       live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+      source:
+        "https://www.youtube.com/watch?v=bWIgy-Ls-SU&list=PLbqsLXjyXw3iA3BhWY9rSjxiOq-0Mvv3U&ab_channel=JorgeRivera-Herrans-Topic", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
-      title: "Project 2",
+      title: "Cyclop saga",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source:
+        "https://www.youtube.com/watch?v=nDQyFHmuQls&list=PLbqsLXjyXw3gv5BkX8z6kui2_cWvvJPKn&ab_channel=JorgeRivera-Herrans-Topic",
       image: mock2,
     },
     {
-      title: "Project 3",
+      title: "Ocean saga",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source:
+        "https://www.youtube.com/watch?v=sRntPU_s-gI&list=PLbqsLXjyXw3gfuC3mg1G63vTjmYtD_Yvo&ab_channel=JorgeRivera-Herrans-Topic",
       image: mock3,
     },
     {
-      title: "Project 4",
+      title: "Circe saga",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source:
+        "https://www.youtube.com/watch?v=Mz2ASoe6OG0&list=PLbqsLXjyXw3go4P3P17EM3h-3cCSm4csg&ab_channel=JorgeRivera-Herrans-Topic",
       image: mock4,
     },
     {
-      title: "Project 5",
+      title: "Underworld saga",
       live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
+      source:
+        "https://www.youtube.com/watch?v=cyqul8pKHko&list=PLbqsLXjyXw3jfWQyhdH0754GhtEjL45h9&ab_channel=JorgeRivera-Herrans-Topic",
       image: mock5,
+    },
+    {
+      title: "Thunder saga",
+      live: "https://paytonpierce.dev",
+      source:
+        "https://www.youtube.com/watch?v=-u_-wpcpY-0&list=PLbqsLXjyXw3isyy2y_Bth7ypAt95zNmRu&ab_channel=JorgeRivera-Herrans-Topic",
+      image: mock6,
+    },
+    {
+      title: "Widsom saga",
+      live: "https://paytonpierce.dev",
+      source:
+        "https://www.youtube.com/watch?v=Z9NNit-z8wE&list=PLbqsLXjyXw3i-6bGeXIGtGL5lVjwlMfZQ&ab_channel=JorgeRivera-Herrans-Topic",
+      image: mock7,
+    },
+    {
+      title: "Vengeance saga",
+      live: "https://paytonpierce.dev",
+      source:
+        "https://www.youtube.com/watch?v=7M3gzo-hSCo&list=PLbqsLXjyXw3hqpDqMCdfJcZDHiQff2YKa&ab_channel=JorgeRivera-Herrans-Topic",
+      image: mock8,
+    },
+    {
+      title: "Ithaca saga",
+      live: "https://paytonpierce.dev",
+      source:
+        "https://www.youtube.com/watch?v=Bb6ssHUxrNk&list=PLbqsLXjyXw3iFsEgQuVQOKcYZ2MUsmKey&ab_channel=JorgeRivera-Herrans-Topic",
+      image: mock9,
     },
   ],
 };
